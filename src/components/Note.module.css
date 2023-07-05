@@ -1,0 +1,11 @@
+.note{
+    padding: 10px;
+    border: 2px solid grey;
+    margin: 10px;
+    width: 151px;
+    border-radius: 6px;   
+}
+.btn{
+    display: flex;
+    justify-content: end;
+}
