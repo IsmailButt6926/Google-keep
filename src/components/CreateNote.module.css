@@ -36,3 +36,8 @@
     font-size: x-large;
     border: none;
 }
+.noteCards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

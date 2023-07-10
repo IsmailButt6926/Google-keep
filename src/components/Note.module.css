@@ -1,9 +1,10 @@
 .note{
-    padding: 10px;
-    border: 2px solid grey;
-    margin: 10px;
-    width: 151px;
-    border-radius: 6px;   
+    border: 2px solid black;
+    margin: 0px 10px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 0px 10px;
+    padding-bottom: 15px;
 }
 .btn{
     display: flex;

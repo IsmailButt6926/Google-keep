@@ -35,7 +35,7 @@ const CreateNote = () => {
 
     const isDataFilled = note.title.length === 0 || note.content.length ===0
 
-    //delete function yaha he bna lia hy bcz hmry pass Array
+    //delete function yaha he bna lia hy bcz hmry pass Array state idr pare the
     const deleteData = (id) => {
         setSavedNotes((prevData) => {
             return prevData.filter((note,index) => index !== id) 
@@ -54,12 +54,13 @@ const CreateNote = () => {
 
     </div>
     </div>
+    <div className={styles.noteCards}>
     {
         savedNotes.map((item,index) => {
             return  <Note key={index} data={item} id={index} deleteItem={deleteData}/>
         })
     }
-   
+   </div>
 
     </>
   )
